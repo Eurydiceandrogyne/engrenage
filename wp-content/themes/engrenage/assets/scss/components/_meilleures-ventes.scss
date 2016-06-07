@@ -1,0 +1,28 @@
+.decouvrir { border-radius: 15px;
+background: rgba(255, 255, 255, 0.9);
+font-family: "Noto-sans";
+font-size: 18px;
+font-weight: 400;
+color: #d4a50d;
+padding: 5px;
+position: relative;
+display: block;
+margin: 0 auto;
+border: 1px solid #d4a50d;
+height: 45px;
+top: 160px;
+width: 80%;
+text-align: center;}
+
+.decouvrir:hover { 
+	background: #c6b444;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: 0.4s ease all;
+    opacity: 0.9;
+}
+
+.mv a img { display: block;
+margin: 0 auto;
+}
+

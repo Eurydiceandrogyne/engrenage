@@ -1,0 +1,80 @@
+.actus p { font-family: "Muli", sans-serif;
+font-size: 18px;
+color: #0a0606;
+line-height: 30px;
+padding: 10px;
+margin-bottom: 0;}
+
+.actu .bouton { display: block;
+margin: 0 auto;}
+
+.actus { width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+margin-bottom: 20px;}
+
+.bouton { 
+	border-radius: 15px;
+	border: 1px solid #d4a50d;
+	background: #fff;
+	font-family: "Noto";
+	font-size: 18px;
+	font-weight: 400;
+	color: #d4a50d;
+	padding: 10px;
+	width: 40%;
+	height: 45px;
+	text-align: center;
+	}
+
+.bouton:hover { 
+	background: #c6b444;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: 0.4s ease all;
+    opacity: 0.9;
+}
+
+.actus h2 {
+	margin-bottom: 70px;
+}
+
+.actus h3 {
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+body.single.single-post nav.woocommerce-breadcrumb {
+	display: none;
+}
+
+
+@media screen and (min-width: 768px) and ( max-width: 951px) {
+	.actu img { 
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.actu p {
+		width: 80%;
+		height: auto;
+		text-align: left;
+		display: block;
+		margin: 0 auto;
+}
+}
+
+
+/* mobile*/
+
+@media screen and (min-width: 320px) and ( max-width: 767px) {
+
+	.actu-1 {
+		margin-bottom: 30px;
+	}
+}	
+

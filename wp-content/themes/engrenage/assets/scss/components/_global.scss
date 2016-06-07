@@ -1,0 +1,257 @@
+body header div.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h1 { font-size: 30px;
+color: #d4a50d;
+font-family: "Cinzel",serif;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;}
+
+h2 { font-size: 24px;
+color: #d4a50d;
+font-family: "Cinzel",serif;
+font-weight: 600;
+text-align: center;
+text-transform: uppercase;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+h3 { font-size: 18px;
+color: #d4a50d;
+font-weight: 800;
+text-transform: uppercase;
+font-family: "Cinzel",serif;
+
+}
+
+h4 { 
+    font-size: 18px;
+    color: #0a0606;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Cinzel",serif;
+}
+
+h6{
+    color: #d4a50d;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Cinzel",serif;
+}
+
+p { font-size: 18px;
+font-family: "Muli",sans-serif;
+font-weight: 400;
+line-height: 30px;}
+
+.clear{ display: none;
+clear: both;}
+
+
+.custom-cycle{
+    margin-top:100px;
+    overflow: hidden;
+    .slide01{
+        background: #f0f0f0;
+        
+    }
+
+    div{
+        width: 100%;
+        position: relative;
+        background: #212121;
+        span{
+            position: absolute;
+            top: 30%;
+            left: 5%;
+            height: 20vh;
+            .new{
+                color: #d4a50d;
+                opacity: 0.7;
+                font-weight: 600;
+                border: 1px solid #d4a50d;
+                border-radius: 15px;
+                background: rgba(255, 255, 255, 0.8);
+                padding: 15px;
+                font-family: "Cinzel",serif;
+                font-size: 18px;
+                transition: 0.4s ease all;
+                &:hover{
+                        background: #c6b444;
+                        border: 1px solid #fff;
+                        color: #fff;
+                    transition: 0.4s ease all;
+                }
+            }
+
+                        h3{
+                color: #d4a50d;
+                font-size: 50px;
+                line-height: 32px;
+                font-weight: 700;
+                opacity: .8;
+                font-family: "Cinzel",serif;
+                margin: 0;
+                padding: 50px 0 0 0;
+            }
+        }
+    }
+}
+
+
+.decouvrir {
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.9);
+	font-family: "Noto-sans";
+	font-size: 18px;
+	font-weight: 400;
+	color: #d4a50d;
+	padding: 5px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #d4a50d;
+	height: 45px;
+	width: 80%;
+	text-align: center;
+}
+
+.decouvrir:hover {
+	background: #c6b444;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.new h2 {
+	position:relative;
+}
+
+.new {
+	position:relative;
+    font-size: 20px;
+    color: #d4a50d;
+    font-family:"Noto sans", sans-serif;
+    text-align: left;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+    
+    color: #d4a50d;
+    margin-left: 50%;
+}
+
+
+
+h1.page-title {
+    margin-top: 100px;
+}
+
+input[type='text']{
+    border: 1px solid #d4a50d;
+}
+
+/* tablet*/
+
+@media screen and (min-width: 768px) and ( max-width: 951px) {
+
+h1 {
+    text-align: left;
+}
+.custom-cycle{
+    margin-top:20px;
+    overflow: hidden;
+    .slide01{
+        background: #f0f0f0;
+        
+    }
+
+    div{
+        width: 100%;
+        position: relative;
+        background: #212121;
+        span{
+            position: absolute;
+            top: 30%;
+            left: 5%;
+            height: 20vh;
+            .new{
+                color: #d4a50d;
+                font-weight: 600;
+                border: 1px solid #d4a50d;
+                border-radius: 15px;
+                background: rgba(255, 255, 255, 0.8);
+                padding: 15px;
+                font-family: "Cinzel",serif;
+                font-size: 18px;
+                transition: 0.4s ease all;
+                &:hover{
+                        background: #c6b444;
+                        border: 1px solid #fff;
+                        color: #fff;
+                    transition: 0.4s ease all;
+                }
+            }
+
+                        h3{
+                color: #d4a50d;
+                font-size: 50px;
+                line-height: 32px;
+                font-weight: 500;
+                opacity: .8;
+                font-family: "Cinzel",serif;
+                margin: 0;
+                padding: 50px 0 0 0;
+            }
+        }
+    }
+}
+
+.center a:active {
+    font-weight: 600;
+}
+
+.woocommerce .woocommerce-breadcrumb{
+    margin: 0;
+    text-align: center;
+}
+
+nav.woocommerce-breadcrumb{
+    text-align: center;
+}
+
+article#post-7.main-content.post-7.page.type-page.status-publish.hentry {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#page .main-content{
+    float: none !important;
+    display: block;
+    margin: 0 auto;
+}
+
+}
+
+
+/* mobile*/
+
+@media screen and (min-width: 320px) and ( max-width: 767px) {
+
+    .woocommerce .woocommerce-breadcrumb {
+        text-align: center;
+        margin-left: 0;
+    }
+
+        .woocommerce-breadcrumb {
+        text-align: center;
+        margin-left: 0;
+    }
+}    
+    
+
